@@ -4,19 +4,6 @@ Discord bot version of my Honkai: Star Rail showcase card maker, [Railcard](http
 
 It supports custom images.
 
-WARNING: I have not implemented a limiter for the custom image file size (I don't need it). So if you're hosting it in a public server, beware that someone might do a funny and make you download one morbillion gigabytes.
-
-To get started, run terminal as admin and type these in:
-
-- `git clone https://github.com/yuvlian/railgen.git`
-- `cd railgen`
-- `pip install -r requirements.txt `
-
-After that you can edit the token in main.py to your Discord bot token. 
-Then just run this in the terminal: `python main.py`
-
-Now you can start using the bot in Discord.
-
 **Commands:**
 - !help
   - This is self explanatory.
@@ -27,6 +14,21 @@ Now you can start using the bot in Discord.
   - Example usages:
     - **!railgen 802775147 1 n** => this will generate card for the first character in !charlist without custom image
     - **!railgen 802775147 1** => this will generate card, but will ask first whether want to use custom image or not
+
+How to get the bot:
+
+- `git clone https://github.com/yuvlian/railgen.git`
+- `cd railgen`
+- `pip install -r requirements.txt `
+
+After that you can edit the token in main.py to your Discord bot token. 
+Then just run this in the terminal: 
+
+`python main.py`
+
+Now you can start using the bot in Discord.
+
+WARNING: I have not implemented a limiter for the custom image file size (I don't need it). So if you're hosting it in a public server, beware that someone might do a funny and make you download one morbillion gigabytes.
 
 **Example image:**
 
