@@ -1,4 +1,3 @@
-
 ## Railgen
 
 Discord bot version of my Honkai: Star Rail showcase card maker, [Railcard](https://github.com/yuvlian/railcard).
@@ -29,5 +28,6 @@ Now you can start using the bot in Discord.
     - **!railgen 802775147 1 n** => this will generate card for the first character in !charlist without custom image
     - **!railgen 802775147 1** => this will generate card, but will ask first whether want to use custom image or not
 
-**Example:**
+**Example image:**
+
 ![image](https://github.com/yuvlian/railgen/assets/138542238/c684e928-7268-4de1-b4ab-406f04c1fb53)
